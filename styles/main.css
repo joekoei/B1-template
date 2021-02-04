@@ -307,3 +307,11 @@ button:hover {
   text-decoration: none;
   color: black;
 }
+
+.product-info {
+  display: flex;
+}
+
+.product-information span {
+  font-weight: bold;
+}
