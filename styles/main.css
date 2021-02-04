@@ -53,9 +53,9 @@ h1{
   margin: 0;
   font-family: 'Heartbeat';
   color: #27AE60;
-  text-shadow: 
+  text-shadow:
     3px 3px 0 #FCFCFC,
-    -1px -1px 0 #FCFCFC,  
+    -1px -1px 0 #FCFCFC,
     1px -1px 0 #FCFCFC,
     -1px 1px 0 #FCFCFC,
     1px 1px 0 #FCFCFC;
@@ -179,7 +179,7 @@ footer{
   display: block;
 }
 
-/* 
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
@@ -189,7 +189,7 @@ footer{
 
 }
 
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
@@ -214,11 +214,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
 
 /*
