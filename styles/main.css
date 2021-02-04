@@ -264,5 +264,14 @@ to   { opacity: 1; }
   margin: 0 auto;
   border-left: transparent 1px solid;
   text-align: center;
-  box-shadow: 3px 1px 3px #27AE60;
+  box-shadow: 13px 1px 14px #27AE60;
+}
+
+
+.row {
+  display: flex;
+}
+
+.row article {
+  width: 50%;
 }
