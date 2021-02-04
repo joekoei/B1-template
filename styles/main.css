@@ -222,6 +222,16 @@ footer{
   }
 }
 
+@media (max-width: 480px){
+  .hidden-on-lg {
+    display: block;
+  }
+
+  .hidden-on-sm {
+    display: none;
+  }
+}
+
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
