@@ -192,6 +192,44 @@ footer{
   display: block;
 }
 
+.emphasize button {
+  border-left: #27AE60 5px solid;
+}
+
+.emphasize {
+  padding: 1em;
+  margin: 0 auto;
+  border-left: transparent 1px solid;
+  text-align: center;
+  box-shadow: 13px 1px 14px #27AE60;
+}
+
+
+.row {
+  display: flex;
+}
+
+.row article {
+  width: 50%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.cart-a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-info {
+  display: flex;
+}
+
+.product-information span {
+  font-weight: bold;
+}
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -274,44 +312,4 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
-}
-
-
-/* Self added CSS */
-.emphasize button {
-  border-left: #27AE60 5px solid;
-}
-
-.emphasize {
-  padding: 1em;
-  margin: 0 auto;
-  border-left: transparent 1px solid;
-  text-align: center;
-  box-shadow: 13px 1px 14px #27AE60;
-}
-
-
-.row {
-  display: flex;
-}
-
-.row article {
-  width: 50%;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.cart-a {
-  text-decoration: none;
-  color: black;
-}
-
-.product-info {
-  display: flex;
-}
-
-.product-information span {
-  font-weight: bold;
 }
