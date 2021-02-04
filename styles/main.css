@@ -164,6 +164,11 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+}
+
+.sidy-by-side a img {
+  padding: 5em;
 }
 
 .description{
